@@ -1,0 +1,51 @@
+:root {
+  --backpaper: hsl(47, 88%, 63%);
+}
+@font-face {
+  font-family: Figtree;
+  src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+* {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: Figtree;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8%;
+  background-color: var(--backpaper);
+  text-align: left;
+  width: auto;
+  height: auto;
+}
+.card {
+  align-items: center;
+  width: 365px;
+  height: 20%;
+  margin: 90px;
+  padding: 0px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.content {
+  text-align: justify;
+  padding: 5%;
+  width: 100%;
+  height: 100%;
+}
+img {
+  border-radius: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
