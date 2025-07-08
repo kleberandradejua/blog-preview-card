@@ -24,11 +24,9 @@ body {
   height: auto;
 }
 .card {
-  align-items: center;
   width: 365px;
   height: 20%;
   margin: 90px;
-  padding: 0px;
   border: 1px solid black;
   border-radius: 10px;
   background-color: white;
