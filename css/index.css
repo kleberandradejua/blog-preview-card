@@ -6,10 +6,10 @@
   src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 * {
-  max-width: 1440px;
   margin: 0 auto;
 }
 body {
+  max-width: 1440px;
   font-size: 16px;
   font-family: Figtree;
   display: flex;
@@ -32,13 +32,17 @@ body {
   background-color: white;
   box-shadow: 10px 10px 0px rgb(0, 0, 0);
 }
+.card img:first-of-type {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .content {
   text-align: left;
   padding: 5%;
 }
 img {
   border-radius: 10px;
-  width: auto;
 }
 #learning {
   background-color: var(--backpaper);
@@ -61,4 +65,10 @@ img {
 h2:hover {
   color: var(--backpaper);
   cursor: pointer;
+}
+@media (max-width: 375px) {
+  .card {
+    width: 100%;
+    font-size: 0.9rem;
+  }
 }
